@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #32021F;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    background-image: url("background.png");
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    resize: both;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    text-align: left;
+}
+
+.emoticons{
+    font-size: 30px;
+}
+
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.foto_zanda{
+    width: 250px;
+    border-radius: 50%;
+}
+
+section{
+    padding-bottom: 60px;
+    padding-top: 30px;
+    border-bottom: 2px solid #FDE8E9;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.Kontakt{
+    border-bottom: none;
+}
+
+.menu li{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.menu ul{
+    padding-left: 0;
+}
+
+.menu a{
+    padding: 10px;
+}
+
+.menu{
+    margin-top: 20px;
+    border-bottom: 2px solid #9A8C98;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.Jazyky strong{
+    font-weight: bolder;
+    margin-right: 35px;
+}
+
+footer{
+    background-color: #9A8C98;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+h2{
+    text-decoration: underline solid #7A1844;
+    font-size: 35px;
+    margin-bottom: 60px;
+}
+
+
+.Pracovni_zkusenosti li,
+.Dovednosti li,
+.Vzdelani li,
+.Kurzy li{
+    display: inline-block;
+    font-size:120%;
+    line-height: 2;
+}
+.Pracovni_zkusenosti li{
+    margin-top: 30px;
+}
+
+.Pracovni_zkusenosti strong{
+    margin-right: 10px;
+}
+
+a{
+    display: inline-block;
+    font-weight: bolder;
+    color:#7A1844;
+    text-decoration:none;
+}
+
+a:hover, a:focus, a:active{
+    font-size: 120%;
+}
+
+.menu a:hover, .menu a:focus, .menu a:active{
+    font-size: 140%;
+}
+
+.Dovednosti img{
+    vertical-align: -50%;
+    border-radius: 50%;
+    width: 50px;
+}
+
+.Dovednosti li{
+    line-height: 2.5;
+    font-weight: bolder;
+    margin-right: 40px;
+    text-align: left;
+}
+
+
+.Jazyky img{
+    vertical-align: -50%;
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 20px;
+}
+
+.Jazyky{
+    margin-top: 60px;
+}
+
+
+.adresa{
+    margin: 0;
+}
+
+.call{
+    line-height: 3;
+}
+
+.Kontakty{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 25%;
+    margin-right: 15%;
+}
+
+.Kontakty img{
+    width: 30px;
+    vertical-align: -10%;
+    margin-right: 10px;
+}
+
+
